@@ -1,0 +1,4 @@
+.App {
+  @include wh(100px, 100px);
+  background: $bg;
+}
