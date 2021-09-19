@@ -1,4 +1,5 @@
 module.exports = {
+  preset: 'ts-jest',
   roots: ['<rootDir>/src'],
   transform: {
     '^.+\\.tsx$': 'ts-jest',
@@ -7,7 +8,7 @@ module.exports = {
   testRegex: '(/__tests__/.*.(test|spec)).(jsx?|tsx?)$',
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   collectCoverage: true,
-  collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx}'],
+  collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx,js,jsx}'],
   coverageDirectory: '<rootDir>/coverage/',
 
   verbose: true,
@@ -17,7 +18,6 @@ module.exports = {
 
   coveragePathIgnorePatterns: ['<rootDir>/node_modules/', '(.*).d.ts$'],
 
-  // Return proxies object for CSS modules via identity-obj-proxy
   moduleNameMapper: {
     '^.+\\.module\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2|svg)$': 'identity-obj-proxy',
   },

@@ -7,17 +7,17 @@
     "build:preprod": "vite build --mode preprod",
     "build:prod": "vite build --mode prod",
     "lint": "eslint ./src --ext .jsx,.js,.ts,.tsx --ignore-path ./.gitignore",
-    "format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\" ",
+    "format": "prettier  --loglevel warn --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
     "clean": "rimraf dist",
     "test": "jest --colors --passWithNoTests",
     "test:watch": "jest --watchAll"
   },
   "dependencies": {
-    "antd": "^4.16.13",
     "react": "^17.0.0",
     "react-dom": "^17.0.0"
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.1.0",
     "@types/jest": "^27.0.1",
