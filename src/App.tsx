@@ -1,7 +1,13 @@
-import React, { FC } from 'react';
+import React, { FC, useEffect } from 'react';
 import SvgComponent from './components/svgIcon';
 import styles from './app.module.scss';
+import { environmentVariable } from './utils';
+
 const App: FC = () => {
+  useEffect(() => {
+    console.log(`environmentVariable()`, environmentVariable());
+  }, []);
+
   return (
     <div className={styles.App}>
       <h2>Welcome to vite-react-cil</h2>

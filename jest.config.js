@@ -1,6 +1,7 @@
 module.exports = {
   preset: 'ts-jest',
   roots: ['<rootDir>/src'],
+  moduleDirectories: ['node_modules', 'src'],
   transform: {
     '^.+\\.tsx$': 'ts-jest',
     '^.+\\.ts$': 'ts-jest',
@@ -9,8 +10,7 @@ module.exports = {
   moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
   collectCoverage: true,
   collectCoverageFrom: ['<rootDir>/src/**/*.{ts,tsx,js,jsx}'],
-  coverageDirectory: '<rootDir>/coverage/',
-
+  coverageDirectory: '<rootDir>/coverage/',,
   verbose: true,
   testTimeout: 30000,
 
