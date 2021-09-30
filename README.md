@@ -64,7 +64,7 @@ Provides a way to get the current environment variables:point_right:[method](htt
 
 
 
-## 生态圈
+## Ecosphere
 
 1. [ant-simple-pro](https://github.com/lgf196/ant-simple-pro)A build with `vite`, support[vue3.0](https://github.com/vuejs/vue)，[react](https://github.com/facebook/react)，[angular](https://github.com/angular/angular)，[typescript](https://github.com/microsoft/TypeScript)Front-end solutions for middle-end platforms supported by multiple frameworks
 2. [jol-player](https://github.com/lgf196/JoL-player)A simple, beautiful and powerful react player, supports `typescript`, `m3u8` format

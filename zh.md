@@ -24,6 +24,8 @@
 </p>
 
 
+简体中文 | [English](./README.md)
+
 ## ✨ 特性
 
 - 支持`Typescript`
