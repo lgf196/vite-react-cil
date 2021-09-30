@@ -7,7 +7,7 @@
 
 <h1 align="center">vite-react-cil</h1>
 
-一个支持`react`，`vite`，`typescript`，`Eslint`，`jest`，`prettierrc`Waiting for scaffolding
+A support`react`，`vite`，`typescript`，`Eslint`，`jest`，`prettierrc`Waiting for scaffolding
 
 <p align="center">
     <a href="https://cn.vitejs.dev/">
