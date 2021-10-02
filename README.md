@@ -5,10 +5,9 @@
 
 
 
-
 <h1 align="center">vite-react-cil</h1>
 
-一个支持`react`，`vite`，`typescript`，`Eslint`，`jest`，`prettierrc`Waiting for scaffolding
+A support`react`，`vite`，`typescript`，`Eslint`，`jest`，`prettierrc`Waiting for scaffolding
 
 <p align="center">
     <a href="https://cn.vitejs.dev/">
@@ -21,6 +20,7 @@
     <img src="https://img.shields.io/badge/react-17.0.1-brightgreen.svg" alt="react">
   </a>
 </p>
+
 English | [简体中文](./zh.md)
 
 ## ✨ characteristic
