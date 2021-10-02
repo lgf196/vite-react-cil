@@ -7,7 +7,7 @@ import proxy from './config/setupProxy';
 export default defineConfig((configEnv) => {
   console.log(`config`, configEnv);
   const { command, mode } = configEnv;
-  const isBuild = command === 'build';
+  // const isBuild = command === 'build';
   return {
     base: VITE_APP_BASE,
     resolve: {
