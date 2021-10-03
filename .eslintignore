@@ -2,6 +2,7 @@ node_modules
 .DS_Store
 dist
 coverage
+src/__tests__
 __tests__
 dist-ssr
 *.local

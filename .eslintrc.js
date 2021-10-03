@@ -43,15 +43,11 @@ module.exports = {
       },
     ],
     'no-debugger': 0,
-    eqeqeq: 2, // 强制使用 === 和 !==
-    'default-case': 1, // 要求 switch 语句中有 default 分支
-    'no-empty-function': 1, // 禁止出现空函数
-    'no-multi-spaces': 1, // 禁止使用多个空格
-    'spaced-comment': ['error', 'always'], // 注释后面必须跟随至少一个空白
-    'no-multiple-empty-lines': [
-      // 禁止出现多行空行
-      'error',
-      { max: 3 },
-    ],
+    eqeqeq: 2,
+    'default-case': 1,
+    'no-empty-function': 1,
+    'no-multi-spaces': 1,
+    'spaced-comment': ['error', 'always'],
+    'no-multiple-empty-lines': ['error', { max: 3 }],
   },
 };
