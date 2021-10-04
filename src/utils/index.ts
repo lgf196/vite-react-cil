@@ -3,7 +3,7 @@
  * @return "dev" | "alpha" | "preprod" | "prod"
  */
 export const environmentVariable = () => {
-  /* const env = import.meta.env.VITE_APP_ANT;
+  const env = import.meta.env.VITE_APP_ANT;
   let parps = null;
   switch (env) {
     case 'dev': // 开发环境下
@@ -22,6 +22,5 @@ export const environmentVariable = () => {
       parps = 'dev';
       break;
   }
-  return parps; */
-  return 'dev';
+  return parps;
 };
