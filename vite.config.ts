@@ -1,9 +1,10 @@
 import { defineConfig } from 'vite';
 import path from 'path';
-import { VITE_APP_CONSOLE, VITE_APP_BASE, VITE_APP_PORT, VITE_APP_OPEN } from './config';
+import { VITE_APP_BASE, VITE_APP_PORT, VITE_APP_OPEN } from './config';
 import createVitePlugins from './config/plugins';
 import cssOption from './config/style';
 import proxy from './config/setupProxy';
+import build from './config/build';
 export default defineConfig((configEnv) => {
   console.log(`config`, configEnv);
   const { command, mode } = configEnv;
@@ -23,13 +24,6 @@ export default defineConfig((configEnv) => {
       open: VITE_APP_OPEN,
       proxy,
     },
-    build: {
-      terserOptions: {
-        compress: {
-          keep_infinity: true,
-          drop_console: VITE_APP_CONSOLE,
-        },
-      },
-    },
+    build,
   };
 });
