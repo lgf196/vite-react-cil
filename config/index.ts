@@ -2,7 +2,7 @@
  * @author lgf
  * @description vite的配置文件
  */
-import { environmentVariable } from '../src/utils';
+// import { environmentVariable } from '../src/utils';
 /**
  * @description 开发端口
  */
@@ -26,7 +26,8 @@ export const VITE_APP_VISUALIZER = false;
 /**
  * @description 是否在打包环境下，去除console.log
  */
-export const VITE_APP_CONSOLE = environmentVariable() === 'dev' ? false : true;
+// export const VITE_APP_CONSOLE = environmentVariable() === 'dev' ? false : true;
+export const VITE_APP_CONSOLE = true;
 /**
  * @description 是否开启兼容模式-IE11
  */
@@ -38,4 +39,4 @@ export const VITE_APP_DEBUGGER = true;
 /**
  * @description 打包环境下是否生成source map 文件
  */
-export const VITE_APP_SOURCEMAP = true;
+export const VITE_APP_SOURCEMAP = false;
